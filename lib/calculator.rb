@@ -1,7 +1,7 @@
 class Calculator
 
-    def multiply
-
+    def multiply(a,b)
+        a * b
     end
-    
+
 end
