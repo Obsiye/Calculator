@@ -12,6 +12,7 @@ describe Calculator do
     
     it "outputs calculations as 'the answer is xxxxxx'" do
      expect{subject.multiply(1,2)}.to output("the answer is 2\n").to_stdout
+     expect{subject.square(2)}.to output("the answer is 4\n").to_stdout
     end
 
 end
