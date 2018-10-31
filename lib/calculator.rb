@@ -4,4 +4,8 @@ class Calculator
         a * b
     end
 
+    def square(a)
+      a ** 2
+    end
+
 end
