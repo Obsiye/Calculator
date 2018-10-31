@@ -2,7 +2,7 @@ require 'calculator'
 
 describe Calculator do
 
-    it 'can multiply two numbers' do
-      expect(Calculator.new.multiply(1,2)).to eq 2
+    it 'can #multiply' do
+      expect(Calculator.new).to respond_to(:multiply)
     end
 end
